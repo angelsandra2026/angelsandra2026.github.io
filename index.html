@@ -55,7 +55,6 @@
   .gallery-item:nth-child(8) { height: 280px; }
   .gallery-item:nth-child(9) { height: 280px; }
   .gallery-item:nth-child(10) { grid-column: span 3; height: 340px; }
-  .gallery-item:nth-child(11) { grid-column: span 3; height: 340px; }
   .lightbox { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.93); z-index: 999; align-items: center; justify-content: center; }
   .lightbox.open { display: flex; }
   .lightbox img { max-width: 88vw; max-height: 88vh; object-fit: contain; }
@@ -82,7 +81,7 @@
     .divider { margin: 2rem auto; }
     .gallery-grid { grid-template-columns: repeat(2,1fr); }
     .gallery-item { height: 180px !important; }
-    .gallery-item:nth-child(1), .gallery-item:nth-child(6), .gallery-item:nth-child(10), .gallery-item:nth-child(11) { grid-column: span 2; height: 240px !important; }
+    .gallery-item:nth-child(1), .gallery-item:nth-child(6), .gallery-item:nth-child(10) { grid-column: span 2; height: 240px !important; }
     .count-block { min-width: 80px; padding: 1.5rem; }
     .count-num { font-size: 2.5rem; }
     nav { gap: 1.2rem; }
@@ -158,15 +157,14 @@
     <div class="gallery-grid">
       <div class="gallery-item" onclick="openLightbox(0)"><img src="photo2 (1).jpeg" alt="photo 1"></div>
       <div class="gallery-item" onclick="openLightbox(1)"><img src="photo2 (2).jpeg" alt="photo 2"></div>
-      <div class="gallery-item" onclick="openLightbox(2)"><img src="photo2 (3).jpeg" alt="photo 3"></div>
-      <div class="gallery-item" onclick="openLightbox(3)"><img src="photo2 (4).jpeg" alt="photo 4"></div>
-      <div class="gallery-item" onclick="openLightbox(4)"><img src="photo2 (5).jpeg" alt="photo 5"></div>
-      <div class="gallery-item" onclick="openLightbox(5)"><img src="photo2 (6).jpeg" alt="photo 6"></div>
-      <div class="gallery-item" onclick="openLightbox(6)"><img src="photo2 (7).jpeg" alt="photo 7"></div>
-      <div class="gallery-item" onclick="openLightbox(7)"><img src="photo2 (8).jpeg" alt="photo 8"></div>
-      <div class="gallery-item" onclick="openLightbox(8)"><img src="photo2 (9).jpeg" alt="photo 9"></div>
-      <div class="gallery-item" onclick="openLightbox(9)"><img src="photo2 (10).jpeg" alt="photo 10"></div>
-      <div class="gallery-item" onclick="openLightbox(10)"><img src="photo2 (11).jpeg" alt="photo 11"></div>
+      <div class="gallery-item" onclick="openLightbox(2)"><img src="photo2 (4).jpeg" alt="photo 3"></div>
+      <div class="gallery-item" onclick="openLightbox(3)"><img src="photo2 (5).jpeg" alt="photo 4"></div>
+      <div class="gallery-item" onclick="openLightbox(4)"><img src="photo2 (6).jpeg" alt="photo 5"></div>
+      <div class="gallery-item" onclick="openLightbox(5)"><img src="photo2 (7).jpeg" alt="photo 6"></div>
+      <div class="gallery-item" onclick="openLightbox(6)"><img src="photo2 (8).jpeg" alt="photo 7"></div>
+      <div class="gallery-item" onclick="openLightbox(7)"><img src="photo2 (9).jpeg" alt="photo 8"></div>
+      <div class="gallery-item" onclick="openLightbox(8)"><img src="photo2 (10).jpeg" alt="photo 9"></div>
+      <div class="gallery-item" onclick="openLightbox(9)"><img src="photo2 (11).jpeg" alt="photo 10"></div>
     </div>
   </div>
 </section>
@@ -198,7 +196,6 @@
   const photos = [
     "photo2 (1).jpeg",
     "photo2 (2).jpeg",
-    "photo2 (3).jpeg",
     "photo2 (4).jpeg",
     "photo2 (5).jpeg",
     "photo2 (6).jpeg",
